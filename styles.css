@@ -1,3 +1,30 @@
-﻿body
-{
+﻿.header {
+	grid-area: header;
+	font-family:'Comic Sans MS';
+	background-color: #000000;
+	padding: 30px;
 }
+h1 {
+	font-size:30px;
+}
+
+.sidebar {
+	grid-area: menu;
+	background-color: #000000;
+}
+
+.body {
+	grid-area: main;
+	background-color: #808080;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-areas: 'header header header header header header' 'menu main main main main main';
+	grid-gap: 0px;
+}
+
+	.grid-container > div {
+		color:#ffffff;
+		text-align: center;
+	}
