@@ -3,7 +3,7 @@
 	padding: 10px;
 	grid-gap: 15px;
 	grid-template-areas: "header header header" "nav article article" "nav article article";
-	background: linear-gradient(-45deg, #808080, #808080, #ffffff,#ffffff);
+	background: linear-gradient(-45deg, #808080, #808080, #ffffff,#ffffff, #808080, #808080, #ffffff,#ffffff);
 }
 
 #top {
@@ -12,7 +12,7 @@
 
 header {
 	padding: 30px;
-	background: linear-gradient(-45deg, #808080, #808080, #000000, #000000);
+	background: linear-gradient(-45deg, #808080, #808080, #000000, #000000, #808080, #808080, #ffffff,#ffffff);
 	height: 150px;
 	color: white;
 }
@@ -46,10 +46,15 @@ time{
 }
 
 ul:not(#skills) {
-	padding-left: 275px;
+	padding-left:300px;
+	border-bottom: medium groove;
 }
 li{
 	padding-bottom: 15px;
+}
+
+h1, h2, h3 {
+	font-family: 'Comic Sans MS';
 }
 
 #sidebar {
@@ -57,7 +62,7 @@ li{
 }
 
 nav {
-	background: linear-gradient(-45deg, #808080, #808080, #ffffff,#ffffff);
+	background: linear-gradient(-45deg, #808080, #808080, #ffffff,#ffffff, #808080, #808080, #ffffff,#ffffff);
 	width: 200px;
 }
 
@@ -87,14 +92,8 @@ img:not(#pic) {
 	float: left;
 }
 
-
-
-h1,h2{
+h1,h2,h3{
 	font-family:'Comic Sans MS';
-}
-ul{
-	padding-bottom: 10px;
-	border-bottom:groove;
 }
 
 
