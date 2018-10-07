@@ -41,6 +41,17 @@ header {
 	grid-area: article;
 }
 
+time{
+	padding-right:100px;
+}
+
+ul:not(#skills) {
+	padding-left: 275px;
+}
+li{
+	padding-bottom: 15px;
+}
+
 #sidebar {
 	grid-area: nav;
 }
@@ -51,7 +62,8 @@ nav {
 }
 
 .info {
-	border-bottom:1px dashed white;
+	padding-bottom: 25px;
+	border-bottom: 5px groove;
 	content: "";
 	display: compact;
 	margin: 0 auto;
@@ -61,21 +73,21 @@ nav {
 
 img {
 	max-width: 90%;
-	border-radius: 50%;
+	border-radius: 75%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
 }
-
+a {
+	display: block;
+}
 img:not(#pic) {
 	max-width: 5%;
 	float: left;
 }
 
-a {
-	display: block;
-}
+
 
 h1,h2{
 	font-family:'Comic Sans MS';
